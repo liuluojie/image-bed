@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec7eae12-79af-459a-ba80-9ddf56915d64" name="Default Changelist" comment="修改首页" />
+    <list default="true" id="ec7eae12-79af-459a-ba80-9ddf56915d64" name="Default Changelist" comment="修改首页">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +64,9 @@
       <workItem from="1613637736464" duration="1232000" />
       <workItem from="1613645443874" duration="208000" />
       <workItem from="1615024873521" duration="214000" />
+      <workItem from="1615174824934" duration="624000" />
+      <workItem from="1615200366029" duration="20000" />
+      <workItem from="1619325377813" duration="620000" />
     </task>
     <task id="LOCAL-00001" summary="ImageBed">
       <created>1613637759831</created>
@@ -87,5 +112,11 @@
     <MESSAGE value="添加首页" />
     <MESSAGE value="修改首页" />
     <option name="LAST_COMMIT_MESSAGE" value="修改首页" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="589" y="358" key="Github.ShareDialog" timestamp="1619325399176">
+      <screen x="0" y="0" width="1440" height="920" />
+    </state>
+    <state x="589" y="358" key="Github.ShareDialog/0.0.1440.920@0.0.1440.920" timestamp="1619325399176" />
   </component>
 </project>

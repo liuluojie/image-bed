@@ -1,1053 +1,156 @@
-
-
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-cn">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title itemprop="name">Lljieeeeee</title>
-	<meta name="description" content=""/>
-	<meta name="keywords" content=""/>
-  	<link rel="dns-prefetch" href="//cdn.jsdelivr.net">
-
-    <meta name="generator" content="Halo 1.4.2"/>
-        <link rel="shortcut icon" type="images/x-icon" href="https://img-blog.csdnimg.cn/20210207021821633.jpg">
-    
-	<link rel='stylesheet' href='https://www.lljieeeeee.top/themes/LIlGG_Sakura/styles/style.min.css?ver=1.3.0' type='text/css' media='all'>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+SerifMerriweather|Merriweather+Sans|Source+Code+Pro|Ubuntu:400,700|Noto+Serif+SC" media="noexist" onload="this.media='all'">
-	<link rel="stylesheet" href="//at.alicdn.com/t/font_2010950_uq2c7ykeiyk.css" media="noexist" onload="this.media='all'">
-	<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/css/lib.css" media="noexist" onload="this.media='all'">
-	<link rel='stylesheet' href="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/css/highlight/highlight-Dracula.css" type="text/css" media="noexist" onload="this.media='all'">
-	<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/lib/APlayer/APlayer.min.css" media='all'>
-	<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/lib/jqcloud2/jqcloud.min.css" media="noexist" onload="this.media='all'">
-	<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/lib/justifiedGallery/justifiedGallery.min.css" media="noexist" onload="this.media='all'">
-<style type="text/css"> .site-top .lower nav { display: block !important; } /** * 图片资源 */ .video-play, .loadvideo { background-image: url(//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/images/play@32x32.png) } .video-pause { background-image: url(//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/images/pause@32x32.png) } #video-add { background-image: url(//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/images/add@32x32.png); } #loading-comments { background-image: url(//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/images/disqus-preloader.svg); } .headertop.filter-grid:before { background-image: url(//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/images/grid.png) } .headertop.filter-dot:before { background-image: url(//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/images/dot.gif) } @media (max-width:860px) { .headertop.filter-dot:before { background-image: url(//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/images/grid.png) } } .search-form.is-visible { background-image: url(//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/images/other/iloli.gif); } #pagination .loading { background-image: url(//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/images/rotating-ball-o.svg); } #banner_wave_1 { background-image: url(//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/images/wave1.png) repeat-x; } #banner_wave_2 { background-image: url(//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/images/wave2.png) repeat-x; } /** 鼠标样式 */ a { cursor: url(//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/cursor/ayuda.cur), auto } a:active { cursor: url(//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/cursor/work.cur),alias } p { cursor: url(//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/cursor/texto.cur),auto } body { cursor: url(//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/cursor/normal.cur),auto; } .cd-top { cursor: url(//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/cursor/No_Disponible.cur),auto; } .botui-actions-buttons-button { cursor: url(//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/cursor/No_Disponible.cur),auto; } .button.botui-actions-buttons-button { cursor: url(//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/cursor/No_Disponible.cur),auto; } .highlight-wrap code { cursor: url(//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/cursor/texto.cur),auto } .cd-top { background: url(https://cdn.jsdelivr.net/gh/LIlGG/cdn@1.0.8/img/Sakura/images/scroll.png) no-repeat center; } .author-profile i, .post-like a, .post-share .show-share, .sub-text, .we-info a, span.sitename, .post-more i:hover, #pagination a:hover, .post-content a:hover, .float-content i:hover { color: #fe9600 } .feature i, .feature-title span, .download, .navigator i:hover, .links ul li:before, .ar-time i, span.ar-circle, .object, .comment .comment-reply-link, .siren-checkbox-radio:checked + .siren-checkbox-radioInput:after { background: #fe9600 } ::-webkit-scrollbar-thumb { background: #fe9600 } .download, .navigator i:hover, .link-title, .links ul li:hover, #pagination a:hover, .comment-respond input[type='submit']:hover { border-color: #fe9600 } .entry-content a:hover, .site-info a:hover, .comment h4 a, #comments-navi a.prev, #comments-navi a.next, .comment h4 a:hover, .site-top ul li a:hover, .entry-title a:hover, #archives-temp h3, span.page-numbers.current, .sorry li a:hover, .site-title a:hover, i.iconfont.js-toggle-search.iconsearch:hover, .comment-respond input[type='submit']:hover { color: #fe9600 } #nprogress .bar { background: #fe9600 } #nprogress .peg { box-shadow: 0 0 10px #fe9600, 0 0 5px #fe9600; } #pagination a:hover { border: 1px solid #fe9600; } #pagination a:hover { -webkit-box-shadow: 0 0 4px #fe9600; -moz-box-shadow: 0 0 4px #fe9600; -o-box-shadow: 0 0 4px #fe9600; box-shadow: 0 0 4px #fe9600 } .entry-content a:after { background-color: #fe9600 } .site-top ul li a:after { background-color: #fe9600 } .post-tags a:hover { color: #fe9600 } @media (max-width: 860px) { #mo-nav ul li a:hover { color: #fe9600; } } @media (min-width: 860px) { .chip-container { margin-top: -60px;; } } #gallery-filter { text-align: center; } .masonry-gallery .gallery-item { margin-bottom: 10px } /** 日志 */ .journals-line>li:nth-child(odd) .journal-label:after { border-right-color: #e6e6fa; } .at_button { background-color: #e6e6fa; color: #000000; } .at_button:hover { background: #f0ffff; color: #000000; } .journals-line>li:nth-child(odd) .journal-label { background: #e6e6fa; color: #000000; } .journals-line>li .journal-label { background: #f0ffff; color: #000000; } /*黑夜模式控件透明度*/ body.dark .header-info, body.dark .top-social img { color:#fff; background:rgba(0,0,0,0.7); } body.dark .notification, body.dark .the-feature.from_left_and_right .info { background-color: rgba(0,0,0,0.7); } body.dark .skin-menu { background-color:rgba(0,0,0,0.7) !important; } /*黑夜模式图像亮度*/ body.dark img, body.dark .highlight-wrap, body.dark iframe, body.dark .entry-content .aplayer { filter:brightness(0.7); } /*黑夜模式主题色*/ body.dark .ar-time i, body.dark span.ar-circle, body.dark .scrollbar, body.dark .butterBar-message, body.dark .aplayer .aplayer-list ol li:hover { background: #fe9600 !important; } body.dark .aplayer .aplayer-list ol li.aplayer-list-light .aplayer-list-cur, body.dark .user-menu-option a:hover , body.dark .menu-list li:hover , body.dark .font-family-controls button:hover , body.dark .openNav .icon, body.dark .openNav .icon:before , body.dark .openNav .icon:after , body.dark .openNav .icon:after , body.dark .site-top ul li a:after { background-color: #fe9600; } body.dark #archives-temp h3, body.dark #moblieGoTop, body.dark #changskin, body.dark .the-feature.from_left_and_right a:hover .info p, body.dark .the-feature.from_left_and_right .info, body.dark .ins-section .ins-search-item:hover, body.dark .ins-section .ins-search-item:hover .ins-slug, body.dark .ins-section .ins-search-item:hover .ins-search-preview, body.dark .ins-section .ins-search-item:hover .iconfont , body.dark .float-content i:hover, body.dark .menhera-container .emoji-item:hover , body.dark .comment-respond .logged-in-as a:hover , body.dark .site-top ul li a:hover , body.dark i.iconfont.js-toggle-search.iconsearch:hover { color: #fe9600; } body.dark .aplayer .aplayer-info .aplayer-controller .aplayer-time .aplayer-icon:hover path { fill: #fe9600 } body.dark #moblieGoTop:hover , body.dark #changskin:hover { color: #fe9600; opacity:.8; } body.dark .focusinfo .header-tou img { box-shadow: inset 0 0 10px #fe9600; } </style> <!-- 黑夜模式评论模块 --> <style id="comment-style" type="text/css" media="noexist"> .halo-comment.dark button, .halo-comment.dark input, .halo-comment.dark select, .halo-comment.dark textarea, .halo-comment.dark i.iconfont.js-toggle-search.iconsearch, .halo-comment.dark .comment-textarea .input-label, .halo-comment.dark #emotion-toggle span, .halo-comment.dark .emotion-box, .halo-comment.dark .emotion-box .motion-container .emoji-item { color: #eee !important; } .halo-comment.dark .body p { color: #bebebe !important; } .halo-comment.dark input[type=color]:focus, .halo-comment.dark input[type=date]:focus, .halo-comment.dark input[type=datetime-local]:focus, .halo-comment.dark input[type=datetime]:focus, .halo-comment.dark input[type=email]:focus, .halo-comment.dark input[type=month]:focus, .halo-comment.dark input[type=number]:focus, .halo-comment.dark input[type=password]:focus, .halo-comment.dark input[type=range]:focus, .halo-comment.dark input[type=search]:focus, .halo-comment.dark input[type=tel]:focus, .halo-comment.dark input[type=text]:focus, .halo-comment.dark input[type=time]:focus, .halo-comment.dark input[type=url]:focus, .halo-comment.dark input[type=week]:focus, .halo-comment.dark textarea:focus { color: #eee !important; background-color: #31363b !important; } .halo-comment.dark .comment .info, .halo-comment.dark .comment .comment-time, .halo-comment.dark .comment-respond .logged-in-as, .halo-comment.dark .notification, .halo-comment.dark .comment-respond .logged-in-as a { color: #9499a8; } </style>	<script type="text/javascript">
-		if (!!window.ActiveXObject || "ActiveXObject" in window) {
-			alert('请抛弃万恶的IE系列浏览器吧。');
-		}
-	</script>
+<meta name="referrer" content="no-referrer"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
+<title>图床 - 好鸭</title>
+<link href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"/>
+<script src="https://cdn.bootcss.com/jquery/3.4.0/jquery.min.js" type="text/javascript"></script>
+<style type="text/css">
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
+        background: #333;
+      }
+      @font-face {
+        font-family: webfont_2;
+      }
+      .text-center {
+        text-align: center;
+      }
+      .text-white {
+        color: #fff;
+      }
+      .footer,
+      .header {
+        margin: 30px;
+        color: #fff;
+      }
+      .title1 {
+        font-size: 20px;
+      }
+      .title2 {
+        font-size: 24px;
+        font-family: webfont_2 !important;
+      }
+      .jumbotron {
+        margin: auto;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.3);
+      }
+      .jumbotron input[type="file"] {
+        opacity: 0;
+        width: 102px;
+        height: 31px;
+        position: absolute;
+        display: inline-block;
+      }
+      .preview {
+        color: #fff;
+      }
+      .preview img {
+        max-width: 10%;
+      }
+      .preview p {
+        word-break: break-all;
+        word-wrap: break-word;
+        font-size: 13px !important;
+      }
+</style>
 </head>
-<body class="hfeed chinese-font serif">
-<section id="main-container">
-		<div class="headertop filter-nothing">
-<figure id="centerbg" class="centerbg" style="background-image: url(
-		https://img-blog.csdnimg.cn/2021030617370977.jpg
-	);
-">
-	<div class="focusinfo">
-			<div class="header-tou"><a href="https://www.lljieeeeee.top" ><img src="https://i.loli.net/2021/02/28/hjvQHwP1csDo7ZT.jpg"></a></div>
-		<div class="header-info">
-			<p><i class="fa fa-quote-left"></i>小小寰球，有几个苍蝇碰壁。嗡嗡叫，几声凄厉，几声抽泣。<i class="fa fa-quote-right"></i></p>
-			<div class="top-social_v2">
-			    <li id="bg-pre">
-            		<img class="flipx" src="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/images/next-b.svg">
-          		</li>
-				<li class="wechat"><a href="#">
-					<img src="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/images/sns/wechat.png"/></a>
-					<div class="wechatInner">
-						<img src="https://img-blog.csdnimg.cn/20210216140000699.png" class="i18n" data-iname="icon_alt.wechat" data-iattr="alt">
-					</div>
-				</li>
-				<li class="qq">
-					<a href="//wpa.qq.com/msgrd?v=3&uin=2015743127&site=qq&menu=yes" target="_blank" class="i18n" data-iname="icon_alt.qq" data-iattr="title">
-						<img src="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/images/sns/qq.png"/>
-					</a>
-				</li>
-				<li>
-					<a href="https://github.com/liuluojie" target="_blank" class="social-github i18n" data-iname="icon_alt.github" data-iattr="title">
-						<img src="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/images/sns/github.png"/>
-					</a>
-				</li>
-				<li>
-					<a href="https://space.bilibili.com/178988717" target="_blank" class="social-bili i18n" data-iname="icon_alt.bili" data-iattr="title">
-						<img src="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/images/sns/bilibili.png"/>
-					</a>
-				</li>
-				<li>
-					<a href="https://music.163.com/?from=infinity#/user/home?id=1732296898" target="_blank" class="social-wangyiyun i18n" data-iname="icon_alt.cloudmusic" data-iattr="title">
-						<img src="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/images/sns/wangyiyun.png"/>
-					</a>
-				</li>
-				<li>
-					<a href="https://blog.csdn.net/weixin_46026334" target="_blank" class="i18n" data-iname="icon_alt.csdn" data-iattr="title">
-						<img src="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/images/sns/csdn.png"/>
-					</a>
-				</li>
-				<li>
-					<a onclick="LIlGGAttachContext.TOMAIL()" target="_blank" class="i18n" data-iname="icon_alt.email" data-iattr="title">
-						<img src="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/images/sns/email.svg"/>
-					</a>
-				</li>
-				<li id="bg-next">
-            		<img src="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/images/next-b.svg">
-          		</li>
-			</div>
-		</div>
-	</div>
-</figure>		<!-- 背景视频 -->
-		<!-- 首页下拉箭头 -->
-			<div class="headertop-down faa-float animated" onclick="headertop_down()">
-				<span><i class="fa fa-chevron-down" aria-hidden="true"></i></span>
-			</div>
-		</div>
-	<div id="page" class="site wrapper">
-		<header class="site-header  is-homepage" role="banner">
-			<div class="site-top">
-				<div class="site-branding">
-						<div class="site-title">
-							<a href="https://www.lljieeeeee.top">
-								<img src="https://img-blog.csdnimg.cn/20210207021751670.png">
-							</a>
-						</div>
-				</div><!-- .site-branding -->
-				<div class="header-user-avatar">
-					<img src="https://i.loli.net/2021/02/28/hjvQHwP1csDo7ZT.jpg" width="30" height="30">
-					<div class="header-user-menu">
-						<div class="herder-user-name">
-							<div class="herder-user-name-u">Lljieeeeee</div>
-						</div>
-					</div>
-				</div>
-				<div class="searchbox"><i class="iconfont js-toggle-search iconsearch icon-search"></i></div>
-				<div class="lower-cantiner">
-					<div class="lower">
-						<nav class="navbar">
-<ul id="menu-menu-1" class="menu" >
-				<li>
-				<a  href="/" target="_self" >
-                    <span class="faa-parent animated-hover">
-                            <i class="fa fa-fort-awesome faa-horizontal" aria-hidden="true"></i>
-                        首页
-                    </span>
-				</a>
-			</li>
-
-			<li>
-				<a  href="#" target="_self" >
-                    <span class="faa-parent animated-hover">
-                            <i class="fa fa-list-ul faa-vertical" aria-hidden="true"></i>
-                        清单
-                    </span>
-				</a>
-					<ul class="sub-menu">
-							<li>
-								<a href="/archives" target="_self">
-									<i class="fa fa-archive faa-shake" aria-hidden="true"></i>
-									归档
-                                </a>
-							<li>
-							<li>
-								<a href="/categories" target="_self">
-									<i class="fa fa-th-large" aria-hidden="true"></i>
-									分类
-                                </a>
-							<li>
-							<li>
-								<a href="/tags" target="_self">
-									<i class="fa fa-tag" aria-hidden="true"></i>
-									标签
-                                </a>
-							<li>
-					</ul>
-			</li>
-
-			<li>
-				<a  href="#" target="_self" >
-                    <span class="faa-parent animated-hover">
-                            <i class="fa fa-smile-o" aria-hidden="true"></i>
-                        娱乐
-                    </span>
-				</a>
-					<ul class="sub-menu">
-							<li>
-								<a href="/s/音乐" target="_self">
-									<i class="fa fa-music" aria-hidden="true"></i>
-									音乐
-                                </a>
-							<li>
-					</ul>
-			</li>
-
-			<li>
-				<a  href="/journals" target="_self" >
-                    <span class="faa-parent animated-hover">
-                            <i class="fa fa-calendar-o  faa-tada" aria-hidden="true"></i>
-                        说说
-                    </span>
-				</a>
-			</li>
-
-			<li>
-				<a  href="/s/comment" target="_self" >
-                    <span class="faa-parent animated-hover">
-                            <i class="fa fa-pencil-square-o  faa-tada" aria-hidden="true"></i>
-                        留言板
-                    </span>
-				</a>
-			</li>
-
-			<li>
-				<a  href="/photos" target="_self" >
-                    <span class="faa-parent animated-hover">
-                            <i class="fa fa-camera" aria-hidden="true"></i>
-                        图库
-                    </span>
-				</a>
-			</li>
-
-			<li>
-				<a  href="#" target="_self" >
-                    <span class="faa-parent animated-hover">
-                            <i class="fa fa-plus" aria-hidden="true"></i>
-                        实验室
-                    </span>
-				</a>
-					<ul class="sub-menu">
-							<li>
-								<a href="/s/工具" target="_self">
-									<i class="fa fa-balance-scale" aria-hidden="true"></i>
-									工具
-                                </a>
-							<li>
-					</ul>
-			</li>
-
-			<li>
-				<a  href="/s/friend" target="_self" >
-                    <span class="faa-parent animated-hover">
-                            <i class="fa fa-link faa-shake" aria-hidden="true"></i>
-                        友情链接
-                    </span>
-				</a>
-			</li>
-
-			<li>
-				<a  href="/s/about" target="_self" >
-                    <span class="faa-parent animated-hover">
-                            <i class="fa fa-leaf faa-wrench" aria-hidden="true"></i>
-                        关于我
-                    </span>
-				</a>
-			</li>
-
-</ul>						</nav>
-						<!-- #site-navigation -->
-					</div>
-				</div>
-			</div>
-		</header><!-- #masthead -->
-	<div class="blank"></div>
-		<div id="content" class="site-content">
-
-
-
-<div id="primary" class="content-area">
-	<main id="main" class="site-main" role="main">
-		<h1 class="main-title" style="font-family: 'Ubuntu', sans-serif;">
-		<i class="fa fa-envira" aria-hidden="true"></i>
-		<span class="i18n" data-iname="home.discovery"> </span>
-		</h1>
-<article class="post post-list-thumb " itemscope="" itemtype="http://schema.org/BlogPosting">
-	<div class="post-thumb">
-		<a href="https://www.lljieeeeee.top/archives/栈">
-			<img class="lazyload" data-src="https://img-blog.csdnimg.cn/20210307152937423.jpg" src="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/images/svg/loader/orange.progress-bar-stripe-loader.svg" onerror="imgError(this, IMG_Type.DEFAULT)">
-		</a>
-	</div><!-- thumbnail-->
-	<div class="post-content-wrap">
-		<div class="post-content">
-			<div class="post-date">
-				<i class="iconfont icon-time"></i><span class="i18n" data-iname="postlist.time" data-ivalue="2021-03-07"></span>
-				
-			</div>
-			<a href="https://www.lljieeeeee.top/archives/栈" class="post-title"><h3>栈</h3></a>
-			<div class="post-meta">
-				<span><i class="iconfont icon-attention"></i><span class="i18n" data-iname="postlist.heat" data-ivalue="25"></span></span>
-				<span class="comments-number">
-					<i class="iconfont icon-mark"></i>
-					<span class="i18n" data-iname="postlist.comments" data-ivalue="0">
-					</span>
-				</span>
-				<span><i class="iconfont icon-file"></i><a href="https://www.lljieeeeee.top/categories/java">Java</a></span>
-			</div>
-			<div class="float-content">
-				<p>1、栈的实际需求请计算表达式：[722-5+1-5+3-3] 的值。请问: 计算机底层是如何运算得到结果的？ 注意不是简单的把算式列出运算，因为我们看这个算式 7 * 2 * 2 - 5，但是计算机怎么理解这个算式的。对计算机而言， 它接收到的就是一个字符串， 我们讨论的是这个问题：栈2、栈的介绍栈</p>
-				<div class="post-bottom">
-					<a href="https://www.lljieeeeee.top/archives/栈" class="button-normal"><i class="iconfont icon-caidan"></i></a>
-				</div>
-			</div>
-		</div>
-	</div>
-</article>
-<article class="post post-list-thumb post-list-thumb-left" itemscope="" itemtype="http://schema.org/BlogPosting">
-	<div class="post-thumb">
-		<a href="https://www.lljieeeeee.top/archives/springsecurity学习笔记">
-			<img class="lazyload" data-src="https://img-blog.csdnimg.cn/2021030617335056.jpg" src="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/images/svg/loader/orange.progress-bar-stripe-loader.svg" onerror="imgError(this, IMG_Type.DEFAULT)">
-		</a>
-	</div><!-- thumbnail-->
-	<div class="post-content-wrap">
-		<div class="post-content">
-			<div class="post-date">
-				<i class="iconfont icon-time"></i><span class="i18n" data-iname="postlist.time" data-ivalue="2021-03-06"></span>
-				
-			</div>
-			<a href="https://www.lljieeeeee.top/archives/springsecurity学习笔记" class="post-title"><h3>Spring Security 学习笔记</h3></a>
-			<div class="post-meta">
-				<span><i class="iconfont icon-attention"></i><span class="i18n" data-iname="postlist.heat" data-ivalue="22"></span></span>
-				<span class="comments-number">
-					<i class="iconfont icon-mark"></i>
-					<span class="i18n" data-iname="postlist.comments" data-ivalue="0">
-					</span>
-				</span>
-				<span><i class="iconfont icon-file"></i><a href="https://www.lljieeeeee.top/categories/springsecurity">SpringSecurity</a></span>
-			</div>
-			<div class="float-content">
-				<p>1、SpringSecurity框架简介2、SpringSecurity 入门案例3、SpringSecurityWeb权限方案4、SpringSecurity微服务权限方案5.SpringSecurity原理总结</p>
-				<div class="post-bottom">
-					<a href="https://www.lljieeeeee.top/archives/springsecurity学习笔记" class="button-normal"><i class="iconfont icon-caidan"></i></a>
-				</div>
-			</div>
-		</div>
-	</div>
-</article>
-<article class="post post-list-thumb " itemscope="" itemtype="http://schema.org/BlogPosting">
-	<div class="post-thumb">
-		<a href="https://www.lljieeeeee.top/archives/md5加盐加密">
-			<img class="lazyload" data-src="https://img-blog.csdnimg.cn/20210302102430951.jpg" src="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/images/svg/loader/orange.progress-bar-stripe-loader.svg" onerror="imgError(this, IMG_Type.DEFAULT)">
-		</a>
-	</div><!-- thumbnail-->
-	<div class="post-content-wrap">
-		<div class="post-content">
-			<div class="post-date">
-				<i class="iconfont icon-time"></i><span class="i18n" data-iname="postlist.time" data-ivalue="2021-03-02"></span>
-				
-			</div>
-			<a href="https://www.lljieeeeee.top/archives/md5加盐加密" class="post-title"><h3>MD5加盐加密</h3></a>
-			<div class="post-meta">
-				<span><i class="iconfont icon-attention"></i><span class="i18n" data-iname="postlist.heat" data-ivalue="12"></span></span>
-				<span class="comments-number">
-					<i class="iconfont icon-mark"></i>
-					<span class="i18n" data-iname="postlist.comments" data-ivalue="0">
-					</span>
-				</span>
-				<span><i class="iconfont icon-file"></i><a href="https://www.lljieeeeee.top/categories/java">Java</a></span>
-			</div>
-			<div class="float-content">
-				<p>引入依赖&lt;dependency&gt;    &lt;groupId&gt;commons-codec&lt;/groupId&gt;    &lt;artifactId&gt;commons-codec&lt;/artifactId&gt;    &lt;version&gt;1.10&lt</p>
-				<div class="post-bottom">
-					<a href="https://www.lljieeeeee.top/archives/md5加盐加密" class="button-normal"><i class="iconfont icon-caidan"></i></a>
-				</div>
-			</div>
-		</div>
-	</div>
-</article>
-<article class="post post-list-thumb post-list-thumb-left" itemscope="" itemtype="http://schema.org/BlogPosting">
-	<div class="post-thumb">
-		<a href="https://www.lljieeeeee.top/archives/hystrix-熔断器">
-			<img class="lazyload" data-src="https://img-blog.csdnimg.cn/20210228201557958.jpg" src="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/images/svg/loader/orange.progress-bar-stripe-loader.svg" onerror="imgError(this, IMG_Type.DEFAULT)">
-		</a>
-	</div><!-- thumbnail-->
-	<div class="post-content-wrap">
-		<div class="post-content">
-			<div class="post-date">
-				<i class="iconfont icon-time"></i><span class="i18n" data-iname="postlist.time" data-ivalue="2021-02-28"></span>
-				
-			</div>
-			<a href="https://www.lljieeeeee.top/archives/hystrix-熔断器" class="post-title"><h3>Hystrix-熔断器</h3></a>
-			<div class="post-meta">
-				<span><i class="iconfont icon-attention"></i><span class="i18n" data-iname="postlist.heat" data-ivalue="9"></span></span>
-				<span class="comments-number">
-					<i class="iconfont icon-mark"></i>
-					<span class="i18n" data-iname="postlist.comments" data-ivalue="0">
-					</span>
-				</span>
-				<span><i class="iconfont icon-file"></i><a href="https://www.lljieeeeee.top/categories/springcloud">SpringCloud</a></span>
-			</div>
-			<div class="float-content">
-				<p>1、Spring Cloud调用接口过程Spring Cloud 在接口调用上，大致会经过如下几个组件配合：Feign ---&gt; Hystrix ---&gt; Ribbon ---&gt; Http Client（apache http components 或者 Okhttp） 具体交互流</p>
-				<div class="post-bottom">
-					<a href="https://www.lljieeeeee.top/archives/hystrix-熔断器" class="button-normal"><i class="iconfont icon-caidan"></i></a>
-				</div>
-			</div>
-		</div>
-	</div>
-</article>
-<article class="post post-list-thumb " itemscope="" itemtype="http://schema.org/BlogPosting">
-	<div class="post-thumb">
-		<a href="https://www.lljieeeeee.top/archives/feign-服务调用">
-			<img class="lazyload" data-src="https://img-blog.csdnimg.cn/20210228200136893.jpg" src="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/images/svg/loader/orange.progress-bar-stripe-loader.svg" onerror="imgError(this, IMG_Type.DEFAULT)">
-		</a>
-	</div><!-- thumbnail-->
-	<div class="post-content-wrap">
-		<div class="post-content">
-			<div class="post-date">
-				<i class="iconfont icon-time"></i><span class="i18n" data-iname="postlist.time" data-ivalue="2021-02-28"></span>
-				
-			</div>
-			<a href="https://www.lljieeeeee.top/archives/feign-服务调用" class="post-title"><h3>Feign-服务调用</h3></a>
-			<div class="post-meta">
-				<span><i class="iconfont icon-attention"></i><span class="i18n" data-iname="postlist.heat" data-ivalue="6"></span></span>
-				<span class="comments-number">
-					<i class="iconfont icon-mark"></i>
-					<span class="i18n" data-iname="postlist.comments" data-ivalue="0">
-					</span>
-				</span>
-				<span><i class="iconfont icon-file"></i><a href="https://www.lljieeeeee.top/categories/springcloud">SpringCloud</a></span>
-			</div>
-			<div class="float-content">
-				<p>1、FeignFeign是Netflix开发的声明式、模板化的HTTP客户端，Feign可以帮助我们更快捷、优雅地调用HTTP APIFeign支持多种注解，例如Feign自带的注解或者JAX-RS注解等。Spring Cloud对Feign进行了增强，使Feign支持了Spring MVC注解，并</p>
-				<div class="post-bottom">
-					<a href="https://www.lljieeeeee.top/archives/feign-服务调用" class="button-normal"><i class="iconfont icon-caidan"></i></a>
-				</div>
-			</div>
-		</div>
-	</div>
-</article>
-<article class="post post-list-thumb post-list-thumb-left" itemscope="" itemtype="http://schema.org/BlogPosting">
-	<div class="post-thumb">
-		<a href="https://www.lljieeeeee.top/archives/nacos">
-			<img class="lazyload" data-src="https://img-blog.csdnimg.cn/20210228191955844.jpg" src="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/images/svg/loader/orange.progress-bar-stripe-loader.svg" onerror="imgError(this, IMG_Type.DEFAULT)">
-		</a>
-	</div><!-- thumbnail-->
-	<div class="post-content-wrap">
-		<div class="post-content">
-			<div class="post-date">
-				<i class="iconfont icon-time"></i><span class="i18n" data-iname="postlist.time" data-ivalue="2021-02-28"></span>
-				
-			</div>
-			<a href="https://www.lljieeeeee.top/archives/nacos" class="post-title"><h3>搭建Nacos服务</h3></a>
-			<div class="post-meta">
-				<span><i class="iconfont icon-attention"></i><span class="i18n" data-iname="postlist.heat" data-ivalue="7"></span></span>
-				<span class="comments-number">
-					<i class="iconfont icon-mark"></i>
-					<span class="i18n" data-iname="postlist.comments" data-ivalue="0">
-					</span>
-				</span>
-				<span><i class="iconfont icon-file"></i><a href="https://www.lljieeeeee.top/categories/springcloud">SpringCloud</a></span>
-			</div>
-			<div class="float-content">
-				<p>1、基本概念Nacos 是阿里巴巴推出来的一个新开源项目，是一个更易于构建云原生应用的动态服务发现、配置管理和服务管理平台。Nacos 致力于帮助您发现、配置和管理微服务。Nacos 提供了一组简单易用的特性集，帮助您快速实现动态服务发现、服务配置、服务元数据及流量管理。Nacos 帮助您更敏捷和容</p>
-				<div class="post-bottom">
-					<a href="https://www.lljieeeeee.top/archives/nacos" class="button-normal"><i class="iconfont icon-caidan"></i></a>
-				</div>
-			</div>
-		</div>
-	</div>
-</article>
-<article class="post post-list-thumb " itemscope="" itemtype="http://schema.org/BlogPosting">
-	<div class="post-thumb">
-		<a href="https://www.lljieeeeee.top/archives/springcloud相关概念介绍">
-			<img class="lazyload" data-src="https://img-blog.csdnimg.cn/20210228184701258.jpg" src="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/images/svg/loader/orange.progress-bar-stripe-loader.svg" onerror="imgError(this, IMG_Type.DEFAULT)">
-		</a>
-	</div><!-- thumbnail-->
-	<div class="post-content-wrap">
-		<div class="post-content">
-			<div class="post-date">
-				<i class="iconfont icon-time"></i><span class="i18n" data-iname="postlist.time" data-ivalue="2021-02-28"></span>
-				
-			</div>
-			<a href="https://www.lljieeeeee.top/archives/springcloud相关概念介绍" class="post-title"><h3>SpringCloud相关概念介绍</h3></a>
-			<div class="post-meta">
-				<span><i class="iconfont icon-attention"></i><span class="i18n" data-iname="postlist.heat" data-ivalue="7"></span></span>
-				<span class="comments-number">
-					<i class="iconfont icon-mark"></i>
-					<span class="i18n" data-iname="postlist.comments" data-ivalue="0">
-					</span>
-				</span>
-				<span><i class="iconfont icon-file"></i><a href="https://www.lljieeeeee.top/categories/springcloud">SpringCloud</a></span>
-			</div>
-			<div class="float-content">
-				<p>1、微服务1.1、微服务的由来微服务最早由Martin Fowler与James Lewis于2014年共同提出，微服务架构风格是一种使用一套小服务来开发单个应用的方式途径，每个服务运行在自己的进程中，并使用轻量级机制通信，通常是HTTP API，这些服务基于业务能力构建，并能够通过自动化部署机制来</p>
-				<div class="post-bottom">
-					<a href="https://www.lljieeeeee.top/archives/springcloud相关概念介绍" class="button-normal"><i class="iconfont icon-caidan"></i></a>
-				</div>
-			</div>
-		</div>
-	</div>
-</article>
-<article class="post post-list-thumb post-list-thumb-left" itemscope="" itemtype="http://schema.org/BlogPosting">
-	<div class="post-thumb">
-		<a href="https://www.lljieeeeee.top/archives/mybatis-plus自定义sql操作">
-			<img class="lazyload" data-src="https://img-blog.csdnimg.cn/20210228111752272.jpg" src="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/images/svg/loader/orange.progress-bar-stripe-loader.svg" onerror="imgError(this, IMG_Type.DEFAULT)">
-		</a>
-	</div><!-- thumbnail-->
-	<div class="post-content-wrap">
-		<div class="post-content">
-			<div class="post-date">
-				<i class="iconfont icon-time"></i><span class="i18n" data-iname="postlist.time" data-ivalue="2021-02-28"></span>
-				
-			</div>
-			<a href="https://www.lljieeeeee.top/archives/mybatis-plus自定义sql操作" class="post-title"><h3>Mybatis-Plus 自定义 SQL 操作</h3></a>
-			<div class="post-meta">
-				<span><i class="iconfont icon-attention"></i><span class="i18n" data-iname="postlist.heat" data-ivalue="12"></span></span>
-				<span class="comments-number">
-					<i class="iconfont icon-mark"></i>
-					<span class="i18n" data-iname="postlist.comments" data-ivalue="0">
-					</span>
-				</span>
-				<span><i class="iconfont icon-file"></i><a href="https://www.lljieeeeee.top/categories/mybatis">MyBatis</a></span>
-			</div>
-			<div class="float-content">
-				<p>定义实体@Datapublic class CoursePublishVo  implements Serializable {    private static final long serialVersionUID = 1L;    private String title;    priva</p>
-				<div class="post-bottom">
-					<a href="https://www.lljieeeeee.top/archives/mybatis-plus自定义sql操作" class="button-normal"><i class="iconfont icon-caidan"></i></a>
-				</div>
-			</div>
-		</div>
-	</div>
-</article>
-<article class="post post-list-thumb " itemscope="" itemtype="http://schema.org/BlogPosting">
-	<div class="post-thumb">
-		<a href="https://www.lljieeeeee.top/archives/vuejs进阶">
-			<img class="lazyload" data-src="https://img-blog.csdnimg.cn/20210222221355229.jpg" src="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/images/svg/loader/orange.progress-bar-stripe-loader.svg" onerror="imgError(this, IMG_Type.DEFAULT)">
-		</a>
-	</div><!-- thumbnail-->
-	<div class="post-content-wrap">
-		<div class="post-content">
-			<div class="post-date">
-				<i class="iconfont icon-time"></i><span class="i18n" data-iname="postlist.time" data-ivalue="2021-02-22"></span>
-				
-			</div>
-			<a href="https://www.lljieeeeee.top/archives/vuejs进阶" class="post-title"><h3>Vue.js 进阶</h3></a>
-			<div class="post-meta">
-				<span><i class="iconfont icon-attention"></i><span class="i18n" data-iname="postlist.heat" data-ivalue="17"></span></span>
-				<span class="comments-number">
-					<i class="iconfont icon-mark"></i>
-					<span class="i18n" data-iname="postlist.comments" data-ivalue="0">
-					</span>
-				</span>
-				<span><i class="iconfont icon-file"></i><a href="https://www.lljieeeeee.top/categories/vue">Vue</a></span>
-			</div>
-			<div class="float-content">
-				<p>1、组件组件（Component）是 Vue.js 最强大的功能之一。组件可以扩展 HTML 元素，封装可重用的代码。组件系统让我们可以用独立可复用的小组件来构建大型应用，几乎任意类型的应用的界面都可以抽象为一个组件树：局部组件new Vue({    el: '#app',    //定义vue使</p>
-				<div class="post-bottom">
-					<a href="https://www.lljieeeeee.top/archives/vuejs进阶" class="button-normal"><i class="iconfont icon-caidan"></i></a>
-				</div>
-			</div>
-		</div>
-	</div>
-</article>
-<article class="post post-list-thumb post-list-thumb-left" itemscope="" itemtype="http://schema.org/BlogPosting">
-	<div class="post-thumb">
-		<a href="https://www.lljieeeeee.top/archives/es6入门">
-			<img class="lazyload" data-src="https://img-blog.csdnimg.cn/20210217140252975.jpg" src="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/images/svg/loader/orange.progress-bar-stripe-loader.svg" onerror="imgError(this, IMG_Type.DEFAULT)">
-		</a>
-	</div><!-- thumbnail-->
-	<div class="post-content-wrap">
-		<div class="post-content">
-			<div class="post-date">
-				<i class="iconfont icon-time"></i><span class="i18n" data-iname="postlist.time" data-ivalue="2021-02-17"></span>
-				
-			</div>
-			<a href="https://www.lljieeeeee.top/archives/es6入门" class="post-title"><h3>ES6入门</h3></a>
-			<div class="post-meta">
-				<span><i class="iconfont icon-attention"></i><span class="i18n" data-iname="postlist.heat" data-ivalue="43"></span></span>
-				<span class="comments-number">
-					<i class="iconfont icon-mark"></i>
-					<span class="i18n" data-iname="postlist.comments" data-ivalue="0">
-					</span>
-				</span>
-				<span><i class="iconfont icon-file"></i><a href="https://www.lljieeeeee.top/categories/javascript">JavaScript</a></span>
-			</div>
-			<div class="float-content">
-				<p>1、ECMAScript 6 简介ECMAScript 6.0（以下简称 ES6）是 JavaScript 语言的下一代标准，已经在 2015 年 6 月正式发布了。它的目标，是使得 JavaScript 语言可以用来编写复杂的大型应用程序，成为企业级开发语言。1.1、ECMAScript 和 Ja</p>
-				<div class="post-bottom">
-					<a href="https://www.lljieeeeee.top/archives/es6入门" class="button-normal"><i class="iconfont icon-caidan"></i></a>
-				</div>
-			</div>
-		</div>
-	</div>
-</article>
-	</main><!-- #main -->
-
-    <div id="pagination">
-        <a href="https://www.lljieeeeee.top/page/2" class="i18n" data-iname="page.next"></a>
-	</div>
-</div><!-- #primary -->
-
-</div><!-- #content -->
-</div><!-- #page Pjax container-->
-<footer id="colophon" class="site-footer" role="contentinfo">
-	<div class="site-info">
-		<div class="footertext">
-			<p class="foo-logo"
-			   style="background-image: url('https://cdn.jsdelivr.net/gh/LIlGG/cdn@1.0.8/img/Sakura/images/sakura.svg');"></p>
-    <span id="runtime_span"></span> <script type="text/javascript">function show_runtime(){window.setTimeout("show_runtime()",1000);X=new Date("1/16/2021 00:00:00");Y=new Date();T=(Y.getTime()-X.getTime());M=24*60*60*1000;a=T/M;A=Math.floor(a);b=(a-A)*24;B=Math.floor(b);c=(b-B)*60;C=Math.floor((b-B)*60);D=Math.floor((c-C)*60);runtime_span.innerHTML="我的小破站已经艰难运行"+A+"天"+B+"小时"+C+"分"+D+"秒"}show_runtime();</script>
-    
-		</div>
-		<div class="footer-device">
-			<!-- 请尊重作者，请务必保留版权 -->
-			<p style="font-family: 'Ubuntu', sans-serif;">
-				<span>Powered 
- 					<i class="fa fa-vimeo animated" style="color: #e74c3c;"></i> 
-					by 
-					<a rel="me" target="_blank"  href="http://halo.run" title="一个优秀的开源博客发布应用" style="text-decoration:none;">Halo</a>
-				</span>
-				 •
-				<span>Crafted with
- 					<i class="fa fa-heart animated" style="color: #e74c3c;"></i> 
-					by 
-					<a rel="me" target="_blank" href="https://github.com/LIlGG/halo-theme-sakura" style="text-decoration:none;">LIlGG</a>
-				</span>
-			</p>
-			<p>
-				© 2021 Lljieeeeee
-				&nbsp;
-				<a href="https://beian.miit.gov.cn/" target="_blank">蜀ICP备2021002814号</a>
+<body>
+<div class="container-fluid">
+	<div class="row-fluid">
+		<div class="span12 header text-center">
+			<p class="title2">
+				图床
 			</p>
 		</div>
-	</div><!-- .site-info -->
-</footer><!-- #colophon -->
-<div class="openNav">
-	<div class="iconflat">
-		<div class="icon"></div>
-	</div>
-	<div class="site-branding">
-			<div class="site-title">
-				<a href="https://www.lljieeeeee.top">
-					<img src="https://img-blog.csdnimg.cn/20210207021751670.png">
-				</a>
+		<div class="col-md-8 col-xs-10 jumbotron" style="margin: auto;">
+			<div class="mselector">
+				<input type="file" name="upimage" id="upload_file" accept="image/*"/>
+				<button class="btn btn-primary btn-sm" type="button">
+              选择本地图片
+				</button>
 			</div>
-	</div>
-</div><!-- m-nav-bar -->
-</section><!-- #section -->
-<!-- m-nav-center -->
-<div id="mo-nav">
-	<div class="m-avatar">
-		<img src="https://i.loli.net/2021/02/28/hjvQHwP1csDo7ZT.jpg">
-	</div>
-
-		<p style="text-align: center; color: #333; font-weight: 900; font-family: 'Ubuntu', sans-serif; letter-spacing: 1.5px">Hi,Friend</p>
-
-		<p style="text-align: center; word-spacing: 20px;">
-				<a href="https://github.com/liuluojie" class="social-github" target="_blank" style="color: #333"><img src="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/images/sns/github.png" width="18"/></a>
-				<a href="https://img-blog.csdnimg.cn/20210216140000699.png" class="social-wechat" target="_blank" style="color: #333"><img src="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/images/sns/wechat.png" width="18"/></a>
-				<a href="//wpa.qq.com/msgrd?v=3&uin=2015743127&site=qq&menu=yes" class="social-wangyiyun" target="_blank" style="color: #333"><img src="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/images/sns/qq.png" width="18"/></a>
-				<a href="https://space.bilibili.com/178988717" class="social-bili" target="_blank" style="color: #333"><img src="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/images/sns/bilibili.png" width="18"/></a>
-				<a href="https://music.163.com/?from=infinity#/user/home?id=1732296898" class="social-wangyiyun" target="_blank" style="color: #333"><img src="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/images/sns/wangyiyun.png" width="18"/></a>
-		</p>
-
-	<div class="m-search">
-		<form class="m-search-form" method="get" action="/search" role="search">
-			<input class="m-search-input" type="search" name="keyword" placeholder="搜索..." required>
-		</form>
-	</div>
-<ul id="menu-menu-1" class="menu" >
-				<li>
-				<a  href="/" target="_self" >
-                    <span class="faa-parent animated-hover">
-                            <i class="fa fa-fort-awesome faa-horizontal" aria-hidden="true"></i>
-                        首页
-                    </span>
-				</a>
-			</li>
-
-			<li>
-				<a  href="#" target="_self" >
-                    <span class="faa-parent animated-hover">
-                            <i class="fa fa-list-ul faa-vertical" aria-hidden="true"></i>
-                        清单
-                    </span>
-				</a>
-					<ul class="sub-menu">
-							<li>
-								<a href="/archives" target="_self">
-									<i class="fa fa-archive faa-shake" aria-hidden="true"></i>
-									归档
-                                </a>
-							<li>
-							<li>
-								<a href="/categories" target="_self">
-									<i class="fa fa-th-large" aria-hidden="true"></i>
-									分类
-                                </a>
-							<li>
-							<li>
-								<a href="/tags" target="_self">
-									<i class="fa fa-tag" aria-hidden="true"></i>
-									标签
-                                </a>
-							<li>
-					</ul>
-			</li>
-
-			<li>
-				<a  href="#" target="_self" >
-                    <span class="faa-parent animated-hover">
-                            <i class="fa fa-smile-o" aria-hidden="true"></i>
-                        娱乐
-                    </span>
-				</a>
-					<ul class="sub-menu">
-							<li>
-								<a href="/s/音乐" target="_self">
-									<i class="fa fa-music" aria-hidden="true"></i>
-									音乐
-                                </a>
-							<li>
-					</ul>
-			</li>
-
-			<li>
-				<a  href="/journals" target="_self" >
-                    <span class="faa-parent animated-hover">
-                            <i class="fa fa-calendar-o  faa-tada" aria-hidden="true"></i>
-                        说说
-                    </span>
-				</a>
-			</li>
-
-			<li>
-				<a  href="/s/comment" target="_self" >
-                    <span class="faa-parent animated-hover">
-                            <i class="fa fa-pencil-square-o  faa-tada" aria-hidden="true"></i>
-                        留言板
-                    </span>
-				</a>
-			</li>
-
-			<li>
-				<a  href="/photos" target="_self" >
-                    <span class="faa-parent animated-hover">
-                            <i class="fa fa-camera" aria-hidden="true"></i>
-                        图库
-                    </span>
-				</a>
-			</li>
-
-			<li>
-				<a  href="#" target="_self" >
-                    <span class="faa-parent animated-hover">
-                            <i class="fa fa-plus" aria-hidden="true"></i>
-                        实验室
-                    </span>
-				</a>
-					<ul class="sub-menu">
-							<li>
-								<a href="/s/工具" target="_self">
-									<i class="fa fa-balance-scale" aria-hidden="true"></i>
-									工具
-                                </a>
-							<li>
-					</ul>
-			</li>
-
-			<li>
-				<a  href="/s/friend" target="_self" >
-                    <span class="faa-parent animated-hover">
-                            <i class="fa fa-link faa-shake" aria-hidden="true"></i>
-                        友情链接
-                    </span>
-				</a>
-			</li>
-
-			<li>
-				<a  href="/s/about" target="_self" >
-                    <span class="faa-parent animated-hover">
-                            <i class="fa fa-leaf faa-wrench" aria-hidden="true"></i>
-                        关于我
-                    </span>
-				</a>
-			</li>
-
-</ul>	<p class="m-footer">© 2021 Lljieeeeee</p>
-</div><!-- m-nav-center end -->
-<a href="#" class="cd-top"></a>
-<!-- m-cd-top start -->
-<button class="m-cd-top" title="Go to top">
-	<i class="fa fa-chevron-up" aria-hidden="true"></i>
-</button>
-<!-- m-cd-top end -->
-<!-- search start -->
-<form class="js-search search-form search-form--modal" method="get" action="/search" role="search">
-	<div class="search-form__inner">
-		<div>
-			<p class="micro mb-">输入后按回车搜索 ...</p>
-			<i class="iconfont icon-search"></i>
-			<input class="text-input" type="search" name="keyword" placeholder="Search" required>
+			<hr/>
+			<div class="textarea_con">
+				<textarea class="form-control" id="url-res-txt" style="margin-top: 10px;background-color: #ececec;" rows="3"></textarea>
+			</div>
+			<div class="preview">
+				<hr/>
+			</div>
+		</div>
+		<div class="footer text-center">
+			<p style="color: #ececec;">
+            仅支持单文件,大小限制2MB,上传完毕后可能需要等待一会儿图片URL才能访问<br>
+            欢迎访问我的博客——<a href="https://haoduck.com/">好鸭</a>
+			</p>
 		</div>
 	</div>
-	<div class="search_close"></div>
-</form>
-<!-- search end -->
-<!-- aplayer start -->
-<div id="aplayer-float" style="z-index: 100;" class="aplayer" data-global="true" data-id="2622183739" data-server="netease" data-type="playlist" data-fixed="true" data-preload="none" data-order="random" data-theme="#ffa500" data-autoplay="false"></div>
-<!-- aplayer end -->
-<!-- theme-change start -->
-<div class="changeSkin-gear no-select">
-	<div class="keys">
-        <span id="open-skinMenu">切换主题 | SCHEME TOOL &nbsp;<i class="iconfont icon-gear inline-block rotating"></i></span>
-    </div>
 </div>
-<div class="skin-menu no-select">
-	<div class="theme-controls row-container">
-		<ul class="menu-list">
-			<li id="bg_0" data-text="默认是纯洁的白色~">
-            	<i class="fa fa-television" aria-hidden="true" ></i>
-          	</li>
-			<li id="bg_1" data-text="樱花飞舞~">
-            	<i class="iconfont icon-sakura" aria-hidden="true" ></i>
-          	</li>
-			<li id="bg_2" data-text="格子控！">
-            	<i class="fa fa-slack" aria-hidden="true" ></i>
-          	</li>
-			<li id="bg_3" data-text="小点点~">
-            	<i class="iconfont icon-dots" aria-hidden="true" ></i>
-          	</li>
-			<li id="bg_4" data-text="充满力量的橙色">
-            	<i class="fa fa-optin-monster" aria-hidden="true" ></i>
-          	</li>
-			<li id="bg_5" data-text="pixiv主题~">
-            	<i class="iconfont icon-pixiv" aria-hidden="true" ></i>
-          	</li>
-			<li id="bg_6" data-text="必应图片">
-            	<i class="iconfont icon-bing" aria-hidden="true" ></i>
-          	</li>
-			<li id="bg_7" data-text="关灯！">
-            	<i class="fa fa-moon-o" aria-hidden="true" ></i>
-          	</li>
-		</ul>
+<div tabindex="-1" class="modal fade" id="url_upload_model" role="dialog" aria-hidden="true" aria-labelledby="myModalLabel">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-body">
+				<textarea name="urls" class="form-control" id="urls" rows="8"></textarea>
+			</div>
+			<div class="modal-footer">
+			</div>
+		</div>
 	</div>
 </div>
-<!-- theme-change end -->
-<!-- 定义全局属性 -->
-<script type='text/javascript'>
-	/* <![CDATA[ */
-	var Poi = {
-		"pjax":"true",
-		"windowheight":"auto",
-		"ajaxurl":"https://www.lljieeeeee.top",
-		"formpostion":"bottom",
-		"toc": "true",
-		"codeLine": "",
-		"themeChange": "",
-		"headFocus": "true",
-		"bgvideo": "",
-		"tagRandomColorMin": "0.999",
-		"tagRandomColorMax": "1",
-		"nickname": "Lljieeeeee",
-		"sitename": "Lljieeeeee",
-		"themeBase": "https://www.lljieeeeee.top/themes/LIlGG_Sakura",
-		"openToast": "true",
-		"toastWidth": 260,
-		"toastHeight": 60,
-		"toastTop": "top",
-		"toastBackground": "#fe9600",
-		"toastColor": "#ffffff",
-		"toastFontSize": 14,
-		"copyMonitor": "true",
-		"copyrightNotice": "true",
-		"photosStyle": "justify",
-		"photosGutter": 10,
-		"tocDepth": 0,
-		"i18n": "auto",
-		"mathjax": "true",
-		"coverNum": "5",
-		"rimageUrl": "https://api.lixingyong.com/api/images",
-		"coverOpen": "",
-		"meEmail": "qwerzxcvbnm999@163.com",
-		"defaultTheme": "bg_7"
-	};
-	var bgConfig = {
-		
-		"bg_0": {
-			"name": "white",
-			"desc": "默认是纯洁的白色~",
-			"url": "",
-			"strategy": "none",
-			"isNight": ""
-		},
-		
-		"bg_1": {
-			"name": "sakura",
-			"desc": "樱花飞舞~",
-			"url": "https://view.lixingyong.com/images/2020/07/23/695cc3a80b21ee7f18bd731824ab9638.png",
-			"strategy": "none",
-			"isNight": ""
-		},
-		
-		"bg_2": {
-			"name": "gribs",
-			"desc": "格子控！",
-			"url": "https://view.lixingyong.com/images/2020/07/23/defc1b6783cd16774900517d3b38ded7.jpg",
-			"strategy": "none",
-			"isNight": ""
-		},
-		
-		"bg_3": {
-			"name": "KAdots",
-			"desc": "小点点~",
-			"url": "https://view.lixingyong.com/images/2020/07/23/kyotoanimation.png",
-			"strategy": "none",
-			"isNight": ""
-		},
-		
-		"bg_4": {
-			"name": "totem",
-			"desc": "充满力量的橙色",
-			"url": "https://view.lixingyong.com/images/2020/07/23/little-monster.png",
-			"strategy": "none",
-			"isNight": ""
-		},
-		
-		"bg_5": {
-			"name": "pixiv",
-			"desc": "pixiv主题~",
-			"url": "https://view.lixingyong.com/images/2020/07/23/star02.png",
-			"strategy": "none",
-			"isNight": ""
-		},
-		
-		"bg_6": {
-			"name": "bing",
-			"desc": "必应图片",
-			"url": "https://api.shino.cc/bing/",
-			"strategy": "cover",
-			"isNight": "true"
-		},
-		
-		"bg_7": {
-			"name": "dark",
-			"desc": "关灯！",
-			"url": "",
-			"strategy": "cover",
-			"isNight": "true"
-		},
-	};
-	/* ]]> */
-</script>
-<script type='text/javascript' src='//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/script/utils.min.js?ver=1.3.0'></script>
-<script type="text/javascript" src="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/lib/lazysizes/lazysizes.min.js"></script>
-<script type="text/javascript" src="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/js/lib.js"></script>
-<!-- 相册 -->
-<script src="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/lib/justifiedGallery/jquery.justifiedGallery.min.js"></script>
-<script type="text/javascript" src="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/js/highlight/highlight.pack.js"></script>
-	<script src="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/lib/APlayer/APlayer.min.js" defer></script>
-	<script src="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/plugins/aplayer/js/index.js" defer></script>
-	<script src="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/lib/tocbot/dist/tocbot.min.js" defer></script>
-<script src="https://cdn.jsdelivr.net/gh/LIlGG/halo-comment-sakura/dist/halo-comment.min.js" defer></script>
-<script src="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/lib/jqcloud2/jqcloud.min.js" defer></script>
-<script type='text/javascript'>
-	var wordcloud = [
-		{'text': 'SpringSecurity', 'weight': '1', 'link': 'https://www.lljieeeeee.top/tags/springsecurity'},
-		{'text': 'JavaScript', 'weight': '1', 'link': 'https://www.lljieeeeee.top/tags/javascript'},
-		{'text': 'MySQL', 'weight': '0', 'link': 'https://www.lljieeeeee.top/tags/mysql'},
-		{'text': 'Nginx', 'weight': '1', 'link': 'https://www.lljieeeeee.top/tags/nginx'},
-		{'text': 'SpringCloud', 'weight': '6', 'link': 'https://www.lljieeeeee.top/tags/springcloud'},
-		{'text': 'Redis', 'weight': '0', 'link': 'https://www.lljieeeeee.top/tags/redis'},
-		{'text': '数据结构与算法', 'weight': '4', 'link': 'https://www.lljieeeeee.top/tags/数据结构与算法'},
-		{'text': 'Vue', 'weight': '2', 'link': 'https://www.lljieeeeee.top/tags/vue'},
-		{'text': 'Linux', 'weight': '4', 'link': 'https://www.lljieeeeee.top/tags/linux'},
-		{'text': 'Java', 'weight': '5', 'link': 'https://www.lljieeeeee.top/tags/java'},
-		{'text': 'MyBatis', 'weight': '2', 'link': 'https://www.lljieeeeee.top/tags/mybatis-plus'},
-		{'text': 'halo', 'weight': '1', 'link': 'https://www.lljieeeeee.top/tags/halo'},
-	]
-</script>
-<script src="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/js/echarts/echarts.min.js" defer></script>
-<script type='text/javascript'>
-	var categoryRadar = {
-		'SpringSecurity': '1',
-		'JavaScript': '1',
-		'MySQL': '0',
-		'Nginx': '1',
-		'Redis': '0',
-		'数据结构与算法': '4',
-		'SpringCloud': '6',
-		'Vue': '2',
-		'Linux': '4',
-		'Java': '5',
-		'MyBatis': '2',
-		'halo': '1',
-		'默认分类': '0',
-	}
-</script>
-<script type='text/javascript' src='//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/js/qrcode.min.js' defer></script>
-<script type='text/javascript' src='//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/lib/flv.min/index.js' defer></script>
-<script type='text/javascript' src='//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/script/i18n.min.js?ver=1.3.0' defer></script>
-<script type='text/javascript' src="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/plugins/mathjax/js/index.js"></script>
-<script type='text/javascript' src='https://www.lljieeeeee.top/themes/LIlGG_Sakura/script/app.min.js?ver=1.3.0'></script>
-<script src="//cdn.jsdelivr.net/gh/LIlGG/halo-theme-sakura@1.3.0/source/lib/jquery-ui/jquery-ui.min.js" async defer></script>
-<link rel="stylesheet" type="text/css" href="https://www.lljieeeeee.top/themes/LIlGG_Sakura/plugins/live2d/css/takagi.min.css"/>
-    
-<div class="takagi">
-    <div class="takagi-tips"></div>
-    <canvas id="live2d" class="live2d"></canvas>
-    <div class="takagi-tool">
-        <span class="fui-home"></span>
-        <span class="fui-chat"></span>
-        <span class="fui-eye"></span>
-        <span class="fui-user"></span>
-        <span class="fui-photo"></span>
-        <span class="fui-info-circle"></span>
-        <span class="fui-cross"></span>
-    </div>
-</div>
-
-<script>
-    if(document.body.clientWidth > 860) {
-        function loadJS(url, callback){
-            var script = document.createElement('script');
-            script.type = 'text/javascript';
-            script.src = url;
-            if(typeof callback == 'function'){
-                script.onload = script.onreadystatechange = function(){
-                    if(!this.readyState || this.readyState == 'loaded'
-                                        || this.readyState == 'complete'){
-                        callback();
-                        script.onload = script.onreadystatechange = null;
-                    }
-                }
-            }
-            document.body.appendChild(script);
-        };
-
-        loadJS("https://www.lljieeeeee.top/themes/LIlGG_Sakura/plugins/live2d/js/takagi-tips.min.js");
-        loadJS("https://www.lljieeeeee.top/themes/LIlGG_Sakura/plugins/live2d/js/live2d.min.js", function() {
-            initModel("", options);
-        });
-
-        var options = {
-            modelAPI: "//live2d.fghrsh.net/api/",
-            tipsMessage: "https://www.lljieeeeee.top/themes/LIlGG_Sakura/plugins/live2d/json/takagi-tips.json",
-            hitokotoAPI: "hitokoto.cn",
-            modelId: 1,
-            modelTexturesId: 1,
-            showToolMenu: true,
-            canCloseLive2d: true,
-            canSwitchModel: true,
-            canSwitchTextures: true,
-            canSwitchHitokoto: true,
-            canTakeScreenshot: true,
-            canTurnToHomePage: true,
-            canTurnToAboutPage: true,
-            modelStorage: false,
-            modelRandMode: "rand",
-            modelTexturesRandMode: "rand",
-            showHitokoto: true,
-            showF12Status: false,
-            showF12Message: false,
-            showF12OpenMsg: true,
-            showCopyMessage: true,
-            showWelcomeMessage: true,
-            takagiSize: "280x250",
-            takagiTipsSize: "250x70",
-            takagiFontSize: "12px",
-            takagiToolFont: "14px",
-            takagiToolLine: "20px",
-            takagiToolTop: "0px",
-            takagiMinWidth: "768px",
-            takagiEdgeSide: "left:0",
-            takagiDraggable: "disable",
-            takagiDraggableRevert: true,
-            l2dVersion: "1.0.0",
-            l2dVerDate: "2020.07.01",
-            homePageUrl: "https://www.lljieeeeee.top",
-            aboutPageUrl: "https://lixingyong.com/s/halo-live2d",
-            screenshotCaptureName: "live2d.png"
+<script type="text/javascript">
+      $("input[type='file']").change(function(e) {
+        gen_base64();
+      });
+      function $_(id) {
+        return document.getElementById(id);
+      }
+      function gen_base64() {
+        var file = $_("upload_file").files[0];
+        if (!/image\/\w+/.test(file.type)) {
+          alert("请确保文件为图像类型");
+          return false;
         }
-    }
-</script>
-<div class="site-statistics">
-    
-</div>
+        r = new FileReader(); //本地预览
+        r.onload = function() {
+          let formdata=new FormData; //创建FormData对象,代表文件传输
+          formdata.append("pic", file);
+          $.ajax({
+            type: "post",
+            url: "up.php",
+            processData:false, //不让指定数据处理方式
+            contentType:false, //不让指定传输格式
+            dataType: "json",
+            data: formdata,
+            async: true,
+            success: function(res) {
+              if (res.code == 'success') {
+                $(".container-fluid .row-fluid .textarea_con").html(
+                  '<textarea id="url-res-txt" class="form-control" rows="8" style="margin-top: 10px;background-color: #ececec;">' + document.getElementById("url-res-txt").value +
+                    res.data.url + "\n" +
+                    "</textarea>"
+                );
+              } else {
+                alert("fail");
+              }
+            },
+            error: function(a) {
+              alert("失败");
+            }
+          });
+        };
+        r.readAsDataURL(file); //Base64
+      }
+      window.onload = function() {
+        if (typeof FileReader === "undefined") {
+          alert("抱歉，你的浏览器不支持 FileReader，请使用现代浏览器操作！");
+          $_("upload_file").disabled = true;
+        }
+      };
+    </script>
 </body>
 </html>
